@@ -154,7 +154,7 @@ class Net(object):
         print(f"Release resources: {delta} s")              
 
 def main():
-    modelPath="./net.om"
+    modelPath="./net.om"#在这里修改网络的路径
     deviceID=0
     net=Net(deviceID,modelPath)
     net.run()
